@@ -1,0 +1,286 @@
+.upbtn{
+    background: rgb(255 218 80 / 69%);
+    text-align: center;
+    padding: 15px;
+}
+.topbtn{
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+.topbtn:hover{
+    border: 1px solid rgb(224 122 82 / 61%);
+    background-color:rgb(255 186 159 / 61%);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+.contdetl{
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.addres{
+    text-align: center;
+    color: black;
+}
+.tpading{
+    margin-bottom: 2px;
+}
+.mbtm{
+    margin-bottom: 5px;
+}
+.bm3{
+    margin-bottom: -2px;
+}
+.bm4{
+    margin-bottom: 2px;
+}
+
+
+
+/* .announcement{
+    width: 100%;
+} */
+.toppannel ul{
+    list-style: none;
+    display: flex;
+    background-color: #f2f2f2;
+    margin-bottom: 0px;
+    margin-left: 3px;
+}
+.toppannel ul li{
+    width: 149px;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+.toppannel ul li a{
+    color: black;
+}
+
+.leftpannel ul{
+    list-style: none;
+    float: left;
+    overflow: auto;
+    height: 420px;
+    padding-top: 8px;
+    background-color: #f2f2f2;
+}
+.bdright{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+}
+.leftpannel ul li{
+    width: 135px;
+    height: 80px;
+    text-align: center;
+    border-top: 1px solid black;
+}
+.leftpannel ul li a{
+    color: black;
+}
+.leftpannel ul li a h4{
+    margin-bottom: 0px;
+    padding-top: 11px;
+}
+.toppannel ul li a h4{
+    margin-bottom: -4px;
+    padding-top: 28px;
+}
+.txtsiz{
+    font-size: 12px;
+    font-weight: 500;
+}
+thead td{
+    border: 1px solid black;
+}
+table tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+.tbl{
+    overflow: auto;
+    height: 527px;
+}
+.cl{
+    height: 35px;
+}
+.nam{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.ctr{
+    text-align: left !important;
+}
+.cl1{
+    width: 110px;
+    height: 35px;
+    text-align: center;
+}
+.cl2{
+    text-align: left !important;
+    width: 693px;
+    height: 35px
+}
+.cl3{
+    width: 115px;
+    text-align: center;
+    height: 35px
+}
+.cl4{
+    width: 115px;
+    text-align: center;
+    height: 35px
+}
+.endstauts{
+    color: red;
+    border: 2px solid red;
+    margin: 3px 30px 3px 30px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.nextstauts{
+    color: #ff914d;
+    border: 2px solid #ff914d;
+    margin: 3px 30px 3px 30px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.upcomingstauts{
+    color: #00c2cb;
+    border: 2px solid #00c2cb;
+    margin: 3px 30px 3px 30px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.livestauts{
+    color: #ee1527;
+    border: 2px solid #ee1527;
+    margin: 3px 30px 3px 30px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.blink {
+    animation: blinker 1.4s linear infinite;
+    color: red;
+    font-size: 53px;
+    font-weight: 800;
+    display: inline-block;
+    margin-top: -48px;
+    margin-bottom: -13px;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.judbackcol{
+    background-color: #d9d9d9;
+}
+.contctdetl{
+    text-align: center;
+    color: black;
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+.contctdetl ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.linebetwen{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+tr:nth-child(even) {
+    background-color: #e5ffff;
+}
+.logo1{
+    width: 133px;
+    height: 108px;
+    background-color: #e6e6e6;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+.logo2{
+    width: 133px;
+    height: 108px;
+    background-color: #e6e6e6;
+    margin-left: 127px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* table css */
+.haldetl1{
+    margin-top: 10px;
+}
+.vertildays>.days{
+    border: 1px solid black;
+    width: 150px;
+    height: 90px;
+}
+.hallinfo>td{
+    border: 1px solid black;
+    width: 150px;
+    height: 90px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    background: #f2f2f2e6;
+}
+.halend1{
+    color: grey;
+    font-weight: 400;
+}
+.endedbtn{
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-size: 9px;
+    font-weight: 700;
+    width: 42px;
+    height: 17px;
+    margin-left: 47px;
+    margin-bottom: -19px;
+}
+.strttime{
+    font-size: 9px;
+    font-weight: 700;
+    width: 63px;
+    height: 17px;
+    margin-left: 39px;
+    color: grey;
+}
+td>a{
+    color: black;
+}
+td>a:hover{
+    text-decoration: none;
+    color: black;
+}
+.daycount{
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}
+.monthday{
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+}
+.innerrow1{
+    width: 50px;
+}
+
